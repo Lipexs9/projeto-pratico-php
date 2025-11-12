@@ -1,0 +1,77 @@
+html{
+        font-family: Arial, Helvetica, sans-serif;
+}
+body{
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+}
+header{
+        display: flex;
+        position: relative;
+        background-image: url(../media/banner.jpg);
+        align-items: center;
+        justify-content:space-between;
+        vertical-align: middle;
+        font-size: 35px;
+        max-width: auto;
+        height: auto;
+        padding: 10px;
+}
+header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+}
+#lab{
+        float: left;
+        background-image: url(../media/banner2.jpg);
+        width: 11.5%;
+        height: 1675px;
+        text-align: center;
+        font-size: 16px;
+}
+#lab a{
+        line-height: 50px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding-bottom: 6px;
+        border-bottom: 2px solid rgb(225, 159, 234);
+}
+.home{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#qingsui, #poying, #taibao, #sheshejia{
+        display:block;
+        font-family: cursive;
+        text-align: center;
+        line-height: 20px;
+}
+#qingsui a, #poying a, #taibao a, #sheshejia a{
+        color: black;
+        text-decoration: none;
+}
+#qingsui p, #poying p, #taibao p, #sheshejia p{
+        color: rgb(140, 66, 251);
+}
+#footer{
+        background-image: url(../media/footer.png);
+        display:flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        color: gray;
+        text-align: justify;
+}
+#barra{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+}
+#redes{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+}

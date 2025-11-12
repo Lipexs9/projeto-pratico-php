@@ -1,0 +1,76 @@
+html{
+        font-family: Arial, Helvetica, sans-serif;
+}
+body{
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+}
+header{
+        display: flex;
+        position: relative;
+        background-image: url(../media/banner.jpg);
+        align-items: center;
+        justify-content:space-between;
+        vertical-align: middle;
+        font-size: 35px;
+        max-width: auto;
+        height: auto;
+        padding: 10px;
+}
+header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+}
+#lab{
+        float: left;
+        background-image: url(../media/banner2.jpg);
+        width: 11.5%;
+        height: 1768px;
+        text-align: center;
+        font-size: 16px;
+}
+#lab a{
+        line-height: 50px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding-bottom: 6px;
+        border-bottom: 2px solid rgb(225, 159, 234);
+}
+.home{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#akko1, #wlteclado, #akko2, #wooting, #akko3, #wlteclado2{
+        display:block;
+        text-align: center;
+        line-height: 20px;
+}
+#akko1 a, #wlteclado a, #akko2 a, #wooting a, #akko3 a, #wlteclado2 a{
+         color: rgb(0, 0, 0);
+        text-decoration: none;
+}
+#akko1 p, #wlteclado p, #akko2 p, #wooting p, #akko3 p, #wlteclado2 p{
+        color: rgb(140, 66, 251);
+}
+#footer{
+        background-image: url(../media/footer.png);
+        display:flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        color: gray;
+        text-align: justify;
+}
+#barra{
+        background-color: black;
+        width: 100%;
+        height: 70px;
+}
+#redes{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+}

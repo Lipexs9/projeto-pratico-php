@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/cadastro.css">
+<body>
+    <div class="container">
+        <form action="inicial.html">
+            <img src="../media/logo.png" alt="logo" width="100px">
+            <h1>Cadastro Customice</h1>
+            <div id="nome">
+                <input placeholder="Seu Nome" type="text" required>
+            </div>
+            <div id="sobrenome">
+                <input placeholder="Seu Sobrenome" type="text" required>
+            </div>
+            <div id="usuario">
+                <input placeholder="Seu E-mail" type="email" required>
+            </div>
+            <div id="senha">
+                <input placeholder="Sua Senha" type="password" minlength="8" required>
+            </div>
+            <div id="remember">
+                <label>
+                    <input type="checkbox">
+                    Lembrar de mim
+                </label>
+            </div>
+            <div id="botao">
+                <a href="inicial.html"><button type="submit">Cadastrar</button></a>
+                <p>Já possui uma conta? <a href="login.html"><b>Faça o seu Login</b></a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

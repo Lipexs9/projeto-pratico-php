@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/login.css">
+<body>
+    <div class="container">
+        <form action="inicial.php">
+            <img src="../media/logo.png" alt="logo" width="100px">
+            <h1>Login Customice</h1>
+            <div id="usuario">
+                <input placeholder="E-mail" type="email" required>
+            </div>
+            <div id="senha">
+                <input placeholder="Senha" type="password" minlength="8" required>
+            </div>
+            <div id="remember">
+                <label>
+                    <input type="checkbox">
+                    Lembrar de mim
+                </label>
+                    <a href="recuperar.php">Esqueci a minha senha</a>
+            </div>
+            <div id="botao">
+                <button type="submit">Login</button></a>
+                <p>Não tem uma conta? <a href="cadastro.php"><b>Cadastre-se</b></a></p>
+                <p>Voltar à página <a href="inicial.php"><b>Inicial</b></a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/login.css">
+<body>
+    <div class="container">
+        <form action="login.php">
+            <img src="../media/logo.png" alt="logo" width="100px">
+            <h1>Nova Senha</h1>
+            <p>Insira a sua nova senha.</p>
+            <div id="senha">
+                <input placeholder="Nova senha" type="password" required>
+            </div>
+            <div id="botao">
+                <button type="submit">Login</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

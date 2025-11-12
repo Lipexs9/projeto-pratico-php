@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/mouses2.css">
+<body>
+    <header>
+        <a href="inicial.php"><img src="../media/logo.png" alt="logo" width="100" height="100"></a>
+        <span><a href="mouses2.php"><b>Mouses</b></a></span>
+        <a href="login.php"><img src="../media/login.png" alt="login" width="40" height="40"></a>
+    </header>
+
+    <div id="lab">
+        <a href="mouses.php"><b>MOUSES</b></a><br>
+        <a href="teclados.php"><b>TECLADOS</b></a><br>
+        <a href="mousepads.php"><b>MOUSEPADS</b></a><br>
+        <a href="acessorios.php"><b>ACESSÓRIOS</b></a><br>
+    </div>
+
+    <div class="home">
+    <div id="wlmouse"><br>
+        <p><a href="https://customice.com.br/produto/mouse-gamer-sem-fio-magnesium-wlmouse-beast-x-max-8k-omron-opticals-cinza/">Mouse Gamer <b>Sem Fio</b> Magnesium Wlmouse Beast X Max 8K Omron Opticals - Diversas Cores</a></p>
+        <a href="https://customice.com.br/produto/mouse-gamer-sem-fio-magnesium-wlmouse-beast-x-max-8k-omron-opticals-cinza/"><img src="../media/wlmouse.webp" alt="wl" width="300" height="300"></a><p><b>R$ 1.500,00</b></p><br><br>
+    </div>
+
+    <div id="pulsar2"> 
+        <p><a href="https://customice.com.br/produto/mouse-pulsar-xlite-v2-wireless-mini/">Mouse Pulsar Xlite V2 <b>Wireless</b> Mini</a></p>
+        <a href="https://customice.com.br/produto/mouse-pulsar-xlite-v2-wireless-mini/"><img src="../media/pulsar2.webp" alt="pulsar" width="300" height="300"></a><p><b>R$ 720,00</b></p><br><br>
+    </div>
+
+    <div id="magnesium"> 
+        <p><a href="https://customice.com.br/produto/mouse-sem-fio-pulsar-magnesium-feinmann-f01-46g-preto/">Mouse <b>Sem Fio</b> Pulsar Magnesium Feinmann F01 46G - Preto</a></p>
+        <a href="https://customice.com.br/produto/mouse-sem-fio-pulsar-magnesium-feinmann-f01-46g-preto/"><img src="../media/magnesium.webp" alt="magnesium" width="300" height="300"></a><p><b>R$ 2.300,00</b></p><br><br>
+    </div>
+    </div>
+
+     <p style="text-align: center;">PAGE 2</p>
+    <div id="paginas">
+        <a href="mouses.php"><img src="../media/esquerda.png" alt="seta" width="15px" height="15px"></a>
+        <a href="mouses2.php"><img src="../media/reload.webp" alt="reload" width="15" height="15"></a>
+    </div><br>
+
+    <div id="barra">
+        <div id="redes">
+        <p><a href="https://www.facebook.com/customicegg"><img src="../media/facebook.png" alt="facebook" width="25" height="25"></a></p>
+        <p><a href="https://twitter.com/customicegg"><img src="../media/x.png" alt="x" width="20" height="20"></a></p>
+        <p><a href="https://www.instagram.com/customicegg"><img src="../media/instagram.png" alt="instagram" width="20" height="20"></a></p>
+        <p><a href="https://www.tiktok.com/@customicegg"><img src="../media/tiktok.png" alt="tiktok" width="22" height="22"></a></p>
+        <p><a href="https://www.youtube.com/c/PedroBifCUSTOMICE"><img src="../media/youtube.png" alt="youtube" width="25" height="25"></a></p>
+        </div>
+    </div>
+    <div id="footer">
+        <img src="../media/logo.png" alt="logo" width="150" height="150">
+        <p>Aqui é onde você cria o seu setup épico e único! Ache sua customização, periférico e acessórios, aproveite também mouses, teclados, e mousepads.<br>Aumente o seu desempenho no jogo e aumente o level de estilo do seu setup, Artes únicas e de extrema qualidade feitas para você.</p>
+    </div>
+</body>
+</html>

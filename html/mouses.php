@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/mouses.css">
+<body>
+    <header>
+        <a href="inicial.php"><img style="vertical-align: middle; align-items: center;" src="../media/logo.png" alt="logo" width="100" height="100"></a>
+        <span><a href="../html/mouses.php"><b>Mouses</b></a></span>
+        <a href="login.php"><img src="../media/login.png" alt="login" width="40" height="40"></a>
+    </header>
+
+    <div id="lab">
+        <a href="mouses.php"><b>MOUSES</b></a><br>
+        <a href="teclados.php"><b>TECLADOS</b></a><br>
+        <a href="mousepads.php"><b>MOUSEPADS</b></a><br>
+        <a href="acessorios.php"><b>ACESSÓRIOS</b></a><br>
+    </div>
+
+    <div class="home">
+    <div id="razer"><br>
+        <p><a href="https://customice.com.br/produto/mouse-razer-cobra-pro-optico-bluetooth-sem-fio/">Mouse Razer Cobra Pro Óptico Bluetooth (<b>Sem Fio</b>)</a></p>
+        <a href="https://customice.com.br/produto/mouse-razer-cobra-pro-optico-bluetooth-sem-fio/"><img src="../media/razer.webp" alt="razer" width="300" height="300"></a><p><b>R$ 950,00</b></p><br><br>
+    </div>
+
+    <div id="lamzu">
+        <p><a href="https://customice.com.br/produto/mouse-gamer-lamzu-maya-4k-sem-fio-cloud-grey/">Mouse Gamer Lamzu Maya 4K <b>Sem Fio</b> - Cloud Grey</a></p>
+        <a href="https://customice.com.br/produto/mouse-gamer-lamzu-maya-4k-sem-fio-cloud-grey/"><img src="../media/lamzu.webp" alt="lamzu" width="300" height="300"></a><p><b>R$ 1.070,00</b></p><br><br>
+    </div>
+
+    <div id="pulsar">
+        <p><a href="https://customice.com.br/produto/mouse-gamer-sem-fio-pulsar-x2h-super-clear-medium-clear-white-black/">Mouse Gamer <b>Sem Fio</b> Pulsar X2H Super Clear Medium - Clear White/Black</a></p>
+        <a href="https://customice.com.br/produto/mouse-gamer-sem-fio-pulsar-x2h-super-clear-medium-clear-white-black/"><img src="../media/pulsar.webp" alt="pulsar" width="300" height="300"></a><p><b>R$ 718,00</b></p><br><br>
+    </div>
+    </div>
+
+    <p style="text-align: center;">PAGE 1</p>
+    <div id="paginas">
+        <a href="mouses.php"><img src="../media/reload.webp" alt="reload" width="15" height="15"></a>
+        <a href="mouses2.php"><img src="../media/direita.png" alt="seta" width="15px" height="15px"></a>
+    </div><br>
+
+    <div id="barra">
+        <div id="redes">
+        <p><a href="https://www.facebook.com/customicegg"><img src="../media/facebook.png" alt="facebook" width="25" height="25"></a></p>
+        <p><a href="https://twitter.com/customicegg"><img src="../media/x.png" alt="x" width="20" height="20"></a></p>
+        <p><a href="https://www.instagram.com/customicegg"><img src="../media/instagram.png" alt="instagram" width="20" height="20"></a></p>
+        <p><a href="https://www.tiktok.com/@customicegg"><img src="../media/tiktok.png" alt="tiktok" width="22" height="22"></a></p>
+        <p><a href="https://www.youtube.com/c/PedroBifCUSTOMICE"><img src="../media/youtube.png" alt="youtube" width="25" height="25"></a></p>
+        </div>
+    </div>
+    <div id="footer">
+        <img src="../media/logo.png" alt="logo" width="150" height="150">
+        <p>Aqui é onde você cria o seu setup épico e único! Ache sua customização, periférico e acessórios, aproveite também mouses, teclados, e mousepads.<br>Aumente o seu desempenho no jogo e aumente o level de estilo do seu setup, Artes únicas e de extrema qualidade feitas para você.</p>
+    </div>
+</body>    
+</html>
