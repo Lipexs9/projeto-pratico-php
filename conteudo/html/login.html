@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="../css/global.css">
-<link rel="stylesheet" href="../css/login.css">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Customice</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
 <body>
     <div class="container">
-        <form action="inicial.html">
-            <a href="inicial.html"><img src="../media/logo.png" alt="logo" width="100px"></a>
+        <form action="../php/login.php" method="post">
+            <a href="inicial.html">
+                <img src="../media/logo.png" alt="logo" width="100px">
+            </a>
             <h1>Login Customice</h1>
+            
             <div id="usuario">
-                <input placeholder="E-mail" type="email" required>
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="E-mail" required>
             </div>
+            
             <div id="senha">
-                <input placeholder="Senha" type="password" minlength="8" required>
+                <label for="senha">Senha</label>
+                <input id="senha" name="senha" type="password" placeholder="Senha" minlength="8" required>
             </div>
+            
             <div id="remember">
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" name="remember">
                     Lembrar de mim
                 </label>
-                    <a href="recuperar.html">Esqueci a minha senha</a>
+                <a href="recuperar.html">Esqueci a minha senha</a>
             </div>
+            
             <div id="botao">
-                <button type="submit">Login</button></a>
+                <button type="submit">Login</button>
                 <p>Não tem uma conta? <a href="cadastro.html"><b>Cadastre-se</b></a></p>
                 <p>Voltar à página <a href="inicial.html"><b>Inicial</b></a></p>
             </div>

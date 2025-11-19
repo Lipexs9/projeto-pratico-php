@@ -2,31 +2,32 @@
 <html>
 <link rel="stylesheet" href="../css/global.css">
 <link rel="stylesheet" href="../css/cadastro.css">
+<meta charset="UTF-8"></meta>
 <body>
     <div class="container">
-        <form action="inicial.html">
+        <form action="../php/cadastro.php" method="post">
             <a href="inicial.html"><img src="../media/logo.png" alt="logo" width="100px"></a>
             <h1>Cadastro Customice</h1>
             <div id="nome">
-                <input placeholder="Seu Nome" type="text" required>
+                <input name="nome" placeholder="Seu Nome" type="text" required>
             </div>
             <div id="sobrenome">
-                <input placeholder="Seu Sobrenome" type="text" required>
+                <input name="sobrenome" placeholder="Seu Sobrenome" type="text" required>
             </div>
             <div id="usuario">
-                <input placeholder="Seu E-mail" type="email" required>
+                <input name="email" placeholder="Seu E-mail" type="email" required>
             </div>
             <div id="senha">
-                <input placeholder="Sua Senha" type="password" minlength="8" required>
+                <input name="password" placeholder="Sua Senha" type="password" minlength="8" required>
             </div>
             <div id="remember">
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" name="remember">
                     Lembrar de mim
                 </label>
             </div>
             <div id="botao">
-                <a href="inicial.html"><button type="submit">Cadastrar</button></a>
+                <button type="submit">Cadastrar</button>
                 <p>Já possui uma conta? <a href="login.html"><b>Faça o seu Login</b></a></p>
             </div>
         </form>
