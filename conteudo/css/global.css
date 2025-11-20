@@ -8,6 +8,19 @@ body{
         max-width: 100%;
         overflow: auto;
 }
+header{
+        display: flex;
+        position: relative;
+        background-image: url(../media/banner.jpg);
+        align-items: center;
+        justify-content:space-between;
+        vertical-align: middle;
+        font-size: 35px;
+        max-width: auto;
+        height: auto;
+        padding: 10px;
+}
+
 header a{
         color: rgb(255, 255, 255);
         text-decoration: none;
