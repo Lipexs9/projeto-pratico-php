@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <form action="../php/login.php" method="post">
-            <a href="../html/inicial.html">
+        <form id="loginForm">
+        <div id="mensagem-sucesso"></div>
+            <a href="inicial.html">
                 <img src="../media/logo.png" alt="logo" width="100px">
             </a>
             <h1>Login Customice</h1>
@@ -20,10 +21,14 @@
             </div>
             
             <div id="senha">
-                <label for="senha">Senha</label>
-                <input id="password" name="senha" type="password" placeholder="Senha" minlength="8" required><br>
-                <button id="mostrar" type="button"><img src="../media/mostrar.png" width="20px" height="20px"></button>
+            <label for="senha">Senha</label>
+            <input id="password" name="senha" type="password" placeholder="Senha" minlength="8" required>
+            <button id="mostrar" type="button">
+            <img src="../media/mostrar.png" width="20px" height="20px" alt="Mostrar Senha">
+            </button>
+            <div id="mensagem"></div>
             </div>
+
             
             <div id="remember">
                 <label>
@@ -35,11 +40,13 @@
             
             <div id="botao">
                 <button type="submit">Login</button>
+                <div id="mensagem-erro"></div>
                 <p>Não tem uma conta? <a href="cadastro.html"><b>Cadastre-se</b></a></p>
                 <p>Voltar à página <a href="inicial.html"><b>Inicial</b></a></p>
             </div>
         </form>
     </div>
-    <script src="../js/global.js" defer></script>
+    <script src="../js/global.js"></script>
+
 </body>
 </html>

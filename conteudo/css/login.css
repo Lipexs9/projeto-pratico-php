@@ -1,96 +1,125 @@
-body{
-        background-color: linear-gradient(to bottom, #800080, #ffffff);
-        display: flex;
-        min-height: 100vh;
-        align-items: center;
-        justify-content: center;
+body {
+    background: linear-gradient(to bottom, #5e00aa, #ffffff);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.container{
-        border: solid 2px gray;
-        border-radius: 15px;
-        width: 450px;
-        padding: 30px 40px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-        background: url(../media/banner.jpg);
-}
-.container img{
-        display: flex;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: center;
-        
+.container {
+    border: solid 2px gray;
+    border-radius: 15px;
+    width: 450px;
+    padding: 30px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background: url(../media/banner.jpg);
 }
 
-.container h1{
-        font-size: 30px;
-        text-align: center;
+.container img {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
-#usuario{
-        width: 100%;
-        height: 40px;
-        margin: 30px 0;
+.container h1 {
+    font-size: 30px;
+    text-align: center;
 }
 
-#senha{
-        position: relative;
-        width: auto;
-
-}
-#password{
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-}
-#mostrar{
-        position: absolute;
-        top: 50%; /* Centraliza verticalmente */
-        right: 10px; /* Distância da borda direita */
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: #000000; /* Exemplo de cor */
-        font-weight: bold;
+#usuario {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
 }
 
-#usuario input, #senha input{
-        width: 100%;
-        height: 30px;
-        border-radius: 25px;
-        border: none;
-        outline: none;
-        color:black;
-        font-weight: 50px;
+#senha {
+    position: relative; 
+    width: 100%;
 }
 
-#remember{
-        position: relative;
-        justify-content: space-between;
-        margin: 30px;
-        
+#password {
+    width: 100%;
+    height: 40px;               
+    padding: 0 40px 0 10px;     
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: black;
 }
 
-#remember a{
-        float: right;
-        color: white;
-        margin: 0 0 0 0;
+#mostrar {
+    position: absolute;
+    top: 65%;
+    right: 15px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
 
-#botao button{
-        display: block;
-        margin: 30px auto;
-        align-items: center;
-        border: none;
-        outline: none;
-        border-radius: 25px;
-        background-color: rgb(88, 52, 105);
-        color: white;
-        width: 200px;
-        height: 30px;
+#mostrar img {
+    width: 20px;
+    height: 20px;
+    transition: opacity 0.2s ease;
 }
 
-.container p, a{
-        text-align: center;
-        color: white;
+#mostrar:hover img {
+    opacity: 0.7;
+}
+
+#usuario input {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+#remember {
+    position: relative;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#remember a {
+    float: right;
+    color: white;
+    margin: 0;
+}
+
+#botao button {
+    display: block;
+    margin: 30px auto;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(88, 52, 105);
+    color: white;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container p, 
+.container a {
+    text-align: center;
+    color: white;
+}
+.erro {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.sucesso {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
 }

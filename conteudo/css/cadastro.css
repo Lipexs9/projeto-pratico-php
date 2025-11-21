@@ -1,4 +1,5 @@
 body{
+        background: linear-gradient(to bottom, #5e00aa, #ffffff);
         display: flex;
         min-height: 100vh;
         justify-content: center;
@@ -63,4 +64,23 @@ body{
 .container p, a{
         text-align: center;
         color: white;
+}
+#senha {
+    position: relative; 
+    width: auto;
+}
+#password {
+    width: 100%;        
+    padding: 10px;     
+    box-sizing: border-box;
+}
+#mostrar {
+    position: absolute;
+    top: 15%;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
 }
