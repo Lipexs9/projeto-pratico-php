@@ -35,10 +35,10 @@ if ($checkRes && $checkRes->num_rows > 0) {
     exit();
 }
 
-// inserir novo usuário
-$sql = "INSERT INTO usuarios (email, password) VALUES (?, ?)";
+// inserir novo usuário com nome e sobrenome
+$sql = "INSERT INTO usuarios (nome, sobrenome, email, password) VALUES (?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("ss", $email, $password);
+$stmt->bind_param("ssss", $nome, $sobrenome, $email, $password);
 
 if ($stmt->execute()) {
     // redirecionar para a página de login existente
